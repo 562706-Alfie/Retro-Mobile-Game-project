@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Red Car Data
   m_EditorClassIdentifier: Assembly-CSharp::VehicleSO
   vehicle: {fileID: 1822744810430084812, guid: d83b7a29f5b59a941bea96fcda0216c5, type: 3}
-  speed: {x: -5, y: 0}
+  speed: {x: 5, y: 0}
+  directionLeft: 0
   amount: 1
   isSpawned: 0

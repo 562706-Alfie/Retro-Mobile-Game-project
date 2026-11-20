@@ -3,15 +3,6 @@ using UnityEngine;
 
 public class PlayerSO : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Vector3 topRespawnLocation;
+    public Vector3 bottomRespawnLocation;
 }
