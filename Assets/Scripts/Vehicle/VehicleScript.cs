@@ -34,14 +34,3 @@ public class VehicleScript : MonoBehaviour
         }
     }
 }
-
-/*
-        if (transform.position.y > 0)
-        {
-            rb.linearVelocity = carData.speed;
-        }
-        else
-        {
-            rb.linearVelocity = -carData.speed;
-        }
-*/

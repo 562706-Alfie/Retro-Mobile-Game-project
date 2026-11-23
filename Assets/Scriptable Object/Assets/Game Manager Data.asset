@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Game Manager Data
   m_EditorClassIdentifier: Assembly-CSharp::GameManagerSO
   isInMenu: 0
+  isHonking: 0

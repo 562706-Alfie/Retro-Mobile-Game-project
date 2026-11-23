@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab1afef72189c794bbc70e2a5738078b, type: 3}
   m_Name: Player Data
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSO
-  topRespawnLocation: {x: 0, y: 6, z: 0}
+  topRespawnLocation: {x: 0, y: 12, z: 0}
   bottomRespawnLocation: {x: 0, y: -12, z: 0}
+  currentRespawnPoint: {x: 0, y: 12, z: 0}

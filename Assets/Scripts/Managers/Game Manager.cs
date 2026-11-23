@@ -4,26 +4,33 @@ public class GameManager : MonoBehaviour
 {
     public GameManagerSO gameManager;
     public Camera cam = Camera.main;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public GameObject mainMenu;
     void Awake()
     {
-        CameraMainMenu();
+        CameraMainMenu(); // Everytime the game starts, ensures that the camera is centered on the main Menu
     }
     
-    // Update is called once per frame
     void Update()
     {
         if (gameManager.isInMenu == true)
         {
             CameraMainMenu();
+            cam.transform.position = new Vector3(0, 0, -10);
         }
-
-        // If false(out of menu), teleport player to start
+        if (gameManager.isInMenu == false)
+        {
+            CameraGameplay();
+        }
     }
-
-    void CameraMainMenu()
+    public void CameraMainMenu()
     {
         gameManager.isInMenu = true;
         cam.transform.position = new Vector3(0, 0, -10);
+        //mainMenu.SetActive(true); Constantly happens. Put this where the player returns to the menu
+    }
+    public void CameraGameplay()
+    {
+        gameManager.isInMenu = false;
     }
 }

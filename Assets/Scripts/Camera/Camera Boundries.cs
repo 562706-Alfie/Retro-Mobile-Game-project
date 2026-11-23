@@ -8,7 +8,7 @@ public class CameraBoundries : MonoBehaviour
     private float topBounds = 8f;
     private float bottomBounds = -8f;
 
-    void LateUpdate()
+    void LateUpdate() // Late update so that it happens after the movement
     {
         if (gameManager.isInMenu == false)
         {

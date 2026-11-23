@@ -4,4 +4,5 @@ using UnityEngine;
 public class GameManagerSO : ScriptableObject
 {
     public bool isInMenu;
+    public bool isHonking;
 }

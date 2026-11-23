@@ -5,4 +5,5 @@ public class PlayerSO : ScriptableObject
 {
     public Vector3 topRespawnLocation;
     public Vector3 bottomRespawnLocation;
+    public Vector3 currentRespawnPoint;
 }
