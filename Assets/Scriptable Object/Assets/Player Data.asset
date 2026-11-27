@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Player Data
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSO
   topRespawnLocation: {x: 0, y: 12, z: 0}
+  respawnTop: 1
   bottomRespawnLocation: {x: 0, y: -12, z: 0}
-  currentRespawnPoint: {x: 0, y: 12, z: 0}
+  respawnBottom: 0
+  currentRespawnPoint: {x: 0, y: -12, z: 0}

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f590c0c02af82f4bb980918bae0ad13, type: 3}
   m_Name: Game Manager Data
   m_EditorClassIdentifier: Assembly-CSharp::GameManagerSO
-  isInMenu: 0
+  isInMenu: 1
   isHonking: 0
+  crossingCount: 0

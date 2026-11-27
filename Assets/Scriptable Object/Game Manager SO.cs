@@ -5,4 +5,5 @@ public class GameManagerSO : ScriptableObject
 {
     public bool isInMenu;
     public bool isHonking;
+    public int crossingCount;
 }

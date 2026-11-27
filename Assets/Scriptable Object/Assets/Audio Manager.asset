@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8f139828a39248ae8d03fc385bc59, type: 3}
+  m_Name: Audio Manager
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManagerSO
+  audioClips:
+  - soundName: Main Theme
+    audioClip: {fileID: 8300000, guid: cbc72e08a38e38746be43c89653c98b9, type: 3}
+    loop: 1
